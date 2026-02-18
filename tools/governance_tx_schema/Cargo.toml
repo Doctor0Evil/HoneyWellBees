@@ -1,0 +1,11 @@
+[package]
+name = "tools_governance_tx_schema"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Shared governance transaction types for HoneyWellBees."
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+time = { workspace = true }
