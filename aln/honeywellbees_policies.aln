@@ -1,0 +1,14 @@
+network HoneyWellBees {
+  policy baseline_phoenix_hive {
+    region "arid"
+    strain "local"
+    efsa {
+      max_colony_strength_loss_pct 10
+      max_daily_mortality_pct 5
+      max_mites_per_100_bees 3
+    }
+    temporal {
+      max_hours_in_yellow_per_72h 6
+    }
+  }
+}
