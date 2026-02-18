@@ -1,0 +1,13 @@
+[package]
+name = "bee_biostretched_policy_wasm"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = { workspace = true }
+bee_biostretched_policy = { path = "../../crates/bee_biostretched_policy" }
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
