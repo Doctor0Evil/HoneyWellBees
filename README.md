@@ -1,5 +1,22 @@
 # HoneyWellBees
-HoneyWellBees will be a unified Rust-centered repo that combines: (1) neuromorphic hive‑shard firmware, (2) a biostretched‑zone policy engine, and (3) a cyber‑physical firewall, all explicitly constrained to non‑invasive, bee‑sovereignty‑respecting operation. 
+
+HoneyWellBees is a hybrid cyber-swarm system designed to protect honeybee colonies with neuromorphic intelligence and cyber-physical enforcement, while explicitly avoiding harm or override of the bees' natural neural and hive-mind dynamics.
+
+The mono-repo currently provides three primary Rust crates:
+
+- `hive_shard_runtime`: no-std capable embedded runtime for a neuromorphic hive shard mounted on or near a colony, enforcing computation and actuation ceilings.
+- `bee_biostretched_policy`: EFSA/IUCN anchored policy engine that compiles site-specific hive safety envelopes into immutable, signed bundles.
+- `hive_cpfw`: cyber-physical firewall that mediates all actuator commands between controllers (neuromorphic or conventional) and hardware, making policy violations non-bypassable.
+
+Additional components:
+
+- `tools/governance_tx_schema`: shared types for governance transactions stored on your audit ledger.
+- `wasm/bee_biostretched_policy_wasm`: WASM wrapper for running the policy compiler in browser or lightweight edge environments.
+- `web-console`: TypeScript-based dashboard for monitoring band states and governance events.
+- `aln/`: ALN policy views for rule-level audits.
+
+All code in this repository is intended to be non-invasive, biasing strongly toward sensing, conservative actuation envelopes, and automatic downgrade to observation-only states when risk bands are exceeded.
+
 
 
 HoneyWellBees/
