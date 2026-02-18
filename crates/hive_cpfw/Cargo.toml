@@ -1,0 +1,13 @@
+[package]
+name = "hive_cpfw"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Cyber-physical firewall for hive actuation."
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+time = { workspace = true }
+thiserror = { workspace = true }
+tools_governance_tx_schema = { path = "../../tools/governance_tx_schema" }
