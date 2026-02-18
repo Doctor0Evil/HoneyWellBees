@@ -1,0 +1,15 @@
+[package]
+name = "hive_shard_runtime"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Neuromorphic hive shard runtime enforcing energy, inference, and disturbance ceilings."
+
+[dependencies]
+heapless = "0.8"
+embedded-hal = "1.0.0"
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+bitflags = { workspace = true }
+defmt = { workspace = true }
+time = { workspace = true }
