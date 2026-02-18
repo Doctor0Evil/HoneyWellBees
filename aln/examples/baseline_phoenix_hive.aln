@@ -1,0 +1,12 @@
+hive "phoenix-hive-1" {
+  region "arid"
+  strain "desert-adapted"
+  efsa {
+    max_colony_strength_loss_pct 10
+    max_daily_mortality_pct 4
+    max_mites_per_100_bees 2
+  }
+  temporal {
+    max_hours_in_yellow_per_72h 4
+  }
+}
