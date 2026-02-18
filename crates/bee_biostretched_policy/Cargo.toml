@@ -1,0 +1,18 @@
+[package]
+name = "bee_biostretched_policy"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Bee biostretched-zone policy engine compiling EFSA/IUCN inputs into hive policy bundles."
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
+serde_yaml = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+time = { workspace = true }
+ed25519-dalek = { workspace = true }
+rand_core = { workspace = true }
+clap = { workspace = true, features = ["derive"] }
+hex = { workspace = true }
+tools_governance_tx_schema = { path = "../../tools/governance_tx_schema" }
